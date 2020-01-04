@@ -14,7 +14,8 @@
           "/*.js"
         ]
       }
-    }, {
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
@@ -23,6 +24,20 @@
           "/assets/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
+      }
+    }
+  ],
+  "dataGroup": [
+    {
+      "name": "sw-api",
+      "urls": [
+        "https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "2m",
+        "timeout": "30s",
+        "strategy": "freshness"
       }
     }
   ]
