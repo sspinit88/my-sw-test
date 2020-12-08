@@ -27,7 +27,7 @@
       }
     }
   ],
-  "dataGroup": [
+  "dataGroups": [
     {
       "name": "sw-api",
       "urls": [
